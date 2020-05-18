@@ -26,7 +26,7 @@ SECRET_KEY = 'nthick*ae+go@g*gc!jy1##uvuyckt^qcv03m8l5^jnq6^-^+2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [tylerlabounty.pythonanywhere.com]
+ALLOWED_HOSTS = ['tylerlabounty.pythonanywhere.com']
 
 
 # Application definition
