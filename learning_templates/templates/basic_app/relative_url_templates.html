@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to Relative_URL_Templates</h1>
+
+    <!-- The name basic_app comes from the urls.py file within the app folder where the app_name variable is set to 'basic_app' -->
+    <!-- The name other comes from the name other in the urlpatterns list from that same urls.py file -->
+    <a href="{% url 'basic_app:other' %}">The other page</a>
+    <a href="{% url 'admin:index' %}">Admin console</a>
+    <a href="{% url 'index' %}">Link to Index</a>
+
+  </body>
+</html>
